@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.impact.mhazim.projectcollaborasi.MainActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ipb"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80000000"
+        android:textColor="@android:color/background_light"
+        android:layout_alignBottom="@id/img1"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:text="Institut Pertanian Bogor"
+        android:textSize="26sp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="share"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/img1"
+        android:background="#b5ffe0"
+        android:layout_above="@id/button1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textScroll1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="Kuliah Umum Penerapan GIS, Remote Sensing dan Data Mining di Forest Kebakaran Risk Modelling"/>
+
+            <TextView
+                android:id="@+id/textScroll2"
+                android:layout_below="@id/textScroll1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kuliah umum  “Penerapan GIS, Remote Sensing dan Data Mining di Forest Kebakaran Risk Modelling” telah diadakan di Auditorium FMIPA, IPB Dramaga, pada 22 November 2016. Pembicara dalam kuliah umum ini adalah  Prof. Dr. Ir. I Nengah Surati Jaya, M.Agr. dari Departemen Manajemen Hutan,  Fakultas Kehutanan IPB dan Dr. Imas Sukaesih Sitanggang, S.Si, M.Kom dari Departemen Ilmu Komputer, FMIPA IPB. Kuliah ini diikui oleh sekitar 130 peserta yaitu mahasiswa IPB dan beberapa alumni Magister Ilmu Komputer.  Peserta mahasiswa berasal dari FMIPA (KOM, GFM, STK), Program Studi Pengelolaan Sumberdaya Alam dan Lingkungan, Departemen Manajemen Hutan, Ilmu Pengelolaan Hutan,  Silvikultur, Fahutan, Departemen  Agribisnis, Fakultas Ekonomi dan Manajemen, dan Departemen Teknologi Pasca Panen, FATETA."
+                />
+
+            <TextView
+                android:id="@+id/textScroll3"
+                android:layout_below="@id/textScroll2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kuliah umum  “Penerapan GIS, Remote Sensing dan Data Mining di Forest Kebakaran Risk Modelling” telah diadakan di Auditorium FMIPA, IPB Dramaga, pada 22 November 2016. Pembicara dalam kuliah umum ini adalah  Prof. Dr. Ir. I Nengah Surati Jaya, M.Agr. dari Departemen Manajemen Hutan,  Fakultas Kehutanan IPB dan Dr. Imas Sukaesih Sitanggang, S.Si, M.Kom dari Departemen Ilmu Komputer, FMIPA IPB. Kuliah ini diikui oleh sekitar 130 peserta yaitu mahasiswa IPB dan beberapa alumni Magister Ilmu Komputer.  Peserta mahasiswa berasal dari FMIPA (KOM, GFM, STK), Program Studi Pengelolaan Sumberdaya Alam dan Lingkungan, Departemen Manajemen Hutan, Ilmu Pengelolaan Hutan,  Silvikultur, Fahutan, Departemen  Agribisnis, Fakultas Ekonomi dan Manajemen, dan Departemen Teknologi Pasca Panen, FATETA."
+                />
+
+            <TextView
+                android:id="@+id/textScroll4"
+                android:layout_below="@id/textScroll3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kuliah umum  “Penerapan GIS, Remote Sensing dan Data Mining di Forest Kebakaran Risk Modelling” telah diadakan di Auditorium FMIPA, IPB Dramaga, pada 22 November 2016. Pembicara dalam kuliah umum ini adalah  Prof. Dr. Ir. I Nengah Surati Jaya, M.Agr. dari Departemen Manajemen Hutan,  Fakultas Kehutanan IPB dan Dr. Imas Sukaesih Sitanggang, S.Si, M.Kom dari Departemen Ilmu Komputer, FMIPA IPB. Kuliah ini diikui oleh sekitar 130 peserta yaitu mahasiswa IPB dan beberapa alumni Magister Ilmu Komputer.  Peserta mahasiswa berasal dari FMIPA (KOM, GFM, STK), Program Studi Pengelolaan Sumberdaya Alam dan Lingkungan, Departemen Manajemen Hutan, Ilmu Pengelolaan Hutan,  Silvikultur, Fahutan, Departemen  Agribisnis, Fakultas Ekonomi dan Manajemen, dan Departemen Teknologi Pasca Panen, FATETA."
+                />
+
+            <TextView
+                android:id="@+id/textScroll5"
+                android:layout_below="@id/textScroll4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Departemen Ilmu Komputer menjadi tuan rumah Google Developer Festival Season 2016. Kegiatan tahunan yang diselenggarakan serentak di enam kota di Indonesia ini menghadirkan pakar di teknologi-teknologi mutakhir keluaran Google. Kegiatan di Bogor ini dapat terselenggara atas kerja sama Google Developer Group, Dicoding, Dirakit, DILO Bogor, dengan Departemen Ilmu Komputer. Acara yang berlangsung sejak pagi hingga menjelang maghrib ini terdiri atas sesi keynote dan hands on yang diberikan oleh Ibnu Sina Wardi (Google Expert Android), @sidiqpermana10 (Google Expert Android), @tyohan (Google Expert Web Technologies), @rdatm (CTO OLX), dan Narenda Wicaksono (CEO Dicoding). Teknologi yang diperkenalkan meliputi Android N, Firebase, dan Progressive Web Apps. Pada sesi hands on, peserta yang hampir mencapai empat ratus orang mencoba teknologi tersebut langsung di bawah bimbingan para Google Experts.
+OCTOBER 24, 2016"
+                />
+
+            <TextView
+                android:id="@+id/textScroll6"
+                android:layout_below="@id/textScroll5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Departemen Ilmu Komputer menjadi tuan rumah Google Developer Festival Season 2016. Kegiatan tahunan yang diselenggarakan serentak di enam kota di Indonesia ini menghadirkan pakar di teknologi-teknologi mutakhir keluaran Google. Kegiatan di Bogor ini dapat terselenggara atas kerja sama Google Developer Group, Dicoding, Dirakit, DILO Bogor, dengan Departemen Ilmu Komputer. Acara yang berlangsung sejak pagi hingga menjelang maghrib ini terdiri atas sesi keynote dan hands on yang diberikan oleh Ibnu Sina Wardi (Google Expert Android), @sidiqpermana10 (Google Expert Android), @tyohan (Google Expert Web Technologies), @rdatm (CTO OLX), dan Narenda Wicaksono (CEO Dicoding). Teknologi yang diperkenalkan meliputi Android N, Firebase, dan Progressive Web Apps. Pada sesi hands on, peserta yang hampir mencapai empat ratus orang mencoba teknologi tersebut langsung di bawah bimbingan para Google Experts.
+OCTOBER 24, 2016"
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
